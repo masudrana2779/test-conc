@@ -1320,7 +1320,7 @@ var dataSpace = "ui-effects-",
 	dataSpaceAnimated = "ui-effects-animated",
 
 	// Create a local jQuery because jQuery Color relies on it and the
-	// global may not exist with AMD and a custom build (#10199)
+	// global may not exist with AMD and a custom build1 (#10199)
 	jQuery = $;
 
 $.effects = {
